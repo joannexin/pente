@@ -1,7 +1,7 @@
 $(document).ready(function() {
-	for (var i = 0; i <= 15; i++) {
+	for (var i = 0; i < 15; i++) {
 		var row = $("<div class='row'></div>");
-		for (var j = 0; j <= 15; j++) {
+		for (var j = 0; j < 15; j++) {
 			var square = $("<span class='square' attr-coor='" + [i,j] + "' ></span>");
 			square.appendTo(row);
 			row.appendTo('#container');
