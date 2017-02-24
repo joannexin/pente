@@ -3,8 +3,8 @@
     window.Pente = {};
   }
 
-	var Stone = window.Pente.Stone = function (color) {
-		this.color = color;
-	}
+  var Stone = window.Pente.Stone = function (color) {
+    this.color = color;
+  }
 
 })();
